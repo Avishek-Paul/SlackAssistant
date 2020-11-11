@@ -21,6 +21,7 @@ For RabbitMQ:
     restart: sudo rabbitmqctl restart
 
 For Celery:
+
     starting: celery -A tasker worker --quiet --without-gossip --without-mingle --without-heartbeat
 
 For Assistant:
