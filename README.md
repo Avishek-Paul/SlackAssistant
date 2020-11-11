@@ -5,6 +5,7 @@ To begin:
     extra requirements:
         download rabbitmq: sudo apt-get install rabbitmq-server
         download celery: pip install celery #uses python3 
+        download dependencies: pip install -r requirements.txt
     
     1. start rabbitmq (see below) (Note that rabbitmq starts by itself upon install)
     2. start celery (see below)
